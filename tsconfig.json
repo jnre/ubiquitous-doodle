@@ -19,9 +19,10 @@
     "declaration": true,
     "paths": {
       "/@/*": ["src/*"]
-    }
+    },
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "extends": "./.nuxt/tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "pages/Index.vue"],
   "exclude": ["dist", "node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

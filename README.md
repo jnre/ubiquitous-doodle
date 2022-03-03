@@ -127,3 +127,10 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 5. Search and run "Select TypeScript version" -> "Use workspace version"
 
 ![repository-banner.png](https://res.cloudinary.com/alvarosaburido/image/upload/v1612193118/as-portfolio/Repo_Banner_kexozw.png)
+
+
+### get troisjs
+
+[troisjs install](https://troisjs.github.io/guide/install.html#existing-vuejs-3-project)
+
+run `yarn add three@0.134 troisjs`
